@@ -1,0 +1,121 @@
+Kenni Bawden				Tom Grant
+Katie Bell					Michael Henderson
+Sasha Bermeister			Nick Carton
+Steve Bian					Michael Lang
+Andrew Clayphan				Sean Thompson
+James Constable				Callan McNamara
+Nick Cooper					Poppy Wilson
+Greg Darke					Derek Peczek
+Tim Dawborn					Sanea Khurana
+Lisa Fedorenko				Bin Zhou
+Emma Fitzgerald				Sam Crosby
+_Giles Gardam				James Constable
+Jackson Gatenby				Edmund Tse
+Andreea Hrincu				Jackson Gatenby
+
+Thomas Kanold				Shelley Cooper-White
+Michael Lang				Adam Chyb
+Sophie Liang				Jennifer Truong
+Callan McNamara				Nic Donaldson
+Stephen Merity				David McLean
+
+Katrina Nally				Kathryn Chan
+_Dominick Ng					Vanessa Ung
+_Tianyu Pu					Katie Bell
+_Nicky Ringland				Aidan Cameron
+Steven Sommer				Katrina Tolentino
+Alan Su						Victor Roussekov
+Ben Taylor					Sam Thorogood
+Sam Thorogood				Chris Marwick
+Edmund Tse					Niel van der Westhuizen
+Joseph Wang					Eric Lam
+Peter Ward					Jordan Henderson
+
+Bin Zhou					Stephen Merity
+
+_Jordan Henderson			Nick Drabsch
+_Harrison Rodgers			Jacinta Franco
+Mitchell Jones				Parashanna Kailasanathan
+Tom D'Netto					Samantha Crome
+Justin Gock					Jack Leykam
+Chris Marwick				Thomas Roberts
+
+Vanessa Ung					Laura Wenham
+
+_Nicholas Cooke				Bruce Fuda
+Simon Victory				Emma Fitzgerald
+Robert Newey				Maddy Eagles
+George Caley				Denbeigh Stevens
+Denbeigh Stevens			Francis Young
+Eric Lam					David Zou
+Sam Crosby					Joel Gibson
+Lauren Black				Steve Hughes
+_Damon Reece					Steve Bian
+Denise Tang					Shaun Chong
+_David McLean				Andrew Clayphan
+James Cooper-Stanbury		Nicholas Cooke
+_Nick Drabsch				Dominick Ng
+_Neha Shivathaya				James Cooper-Stanbury
+_Karanbir Dhillon			Jasper Bedwell
+Nic Donaldson				Tom D'Netto
+Georgia Judd				Gemmy Wattanaparada
+_Anthony Ulrich				Caitlin Mangan
+_Laura Wenham				Anthony Ulrich
+_Gemmy Wattanaparada			Ashlee Jensen
+_Sylvia Chin					Sasha Bermeister
+Jarrod Small				Simon Victory
+Thomas Roberts				Harrison Conlin
+_Rochelle De Silva			Karanbir Dhillon
+David Horst					Harrison Rodgers
+Francis Young				Mark Brodie
+_Jennifer Truong				Lauren Black
+Derek Peczek				Neha Shivathaya
+Adam Chyb					Farid Mirmohseni
+Sean Thompson				George Caley
+
+++ Joel Stankiewicz			Joel Stankiewicz
+
+Shaun Chong					Ben Taylor
+Jacob Bettio				Denise Tang
+_Ashlee Jensen				Elle Rimon
+Jasper Bedwell				Cory Thompson
+_Samantha Crome				Xavier Murray
+_Parashanna Kailasanathan	Lisa Fedorenko
+_Michael Henderson			Andreea Hrincu
+_Poppy Wilson				Greg Darke
+_Sanea Khurana				Thomas Kanold
+_Jarrad Frecklington			Francesca McDermott
+Jacinta Franco				Jarrad Frecklington
+Maddy Eagles				Steven Sommer
+Xavier Murray				Damon Reece
+Louis Rankin				Peter Ward
+_Tom Grant					Giles Gardam
+_Aidan Cameron				Mitchell Jones
+Brad Wootton				Katrina Nally
+
+Toby Flemming				Toby Flemming
+
+Steve Hughes				Justin Gock
+Nick Carton					Sylvia Chin
+Niel van der Westhuizen		Brad Wootton
+_David Zou					Tim Dawborn
+_Elle Rimon					Nicky Ringland
+_Francesca McDermott			Kenni Bawden
+_Kathryn Chan				Jarrod Small
+_Katrina Tolentino			Tianyu Pu
+Bruce Fuda					Joseph Wang
+Jack Leykam					Alan Su
+_Cory Thompson				Nick Cooper
+Harrison Conlin				Rochelle De Silva
+Joel Gibson					Robert Newey
+_Caitlin Mangan				Jacob Bettio
+Shelley Cooper-White		Louis Rankin
+Mark Brodie					Georgia Judd
+Victor Roussekov			David Horst
+_Farid Mirmohseni			Sophie Liang
+
+
+
+
+Vanessa Moss				Vanessa Moss
+Georgina Wilcox				Georgina Wilcox
