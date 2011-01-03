@@ -1,11 +1,17 @@
-<strong>Stats</strong>
-<dl>
-  <dt>Death Count</dt>
-  <dd><%= @kills.size %></dd>
-  <dt>Serial Killer</dt>
-  <dd><%= @serial_killer.name %></dd>
-  <dt>Latest Kill</dt>
-  <dd><%= render partial: 'kills/kill', object: @latest_kill %></dd>
-  <dt>First Kill</dt>
-  <dd><%= render partial: 'kills/kill', object: @first_kill %></dd>
-</dl>
+<section>
+  <h1>Stats</h1>
+  <dl>
+    <dt>Death Count:</dt>
+    <dd><%= @kills.size %></dd>
+    <dt>Serial Killer:</dt>
+    <dd><%= @serial_killer.name %></dd>
+    <dt>Latest Kill:</dt>
+    <dd><%= render partial: 'kills/kill', object: @latest_kill %></dd>
+    <dt>First Kill:</dt>
+    <dd><%= render partial: 'kills/kill', object: @first_kill %></dd>
+  </dl>
+</section>
+
+<section>
+  <object data="data:image/svg+xml;base64,<%= Base64.encode64(@graph_data) %>" width="900" height="600">
+</section>
