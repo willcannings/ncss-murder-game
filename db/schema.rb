@@ -10,12 +10,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110103001325) do
+ActiveRecord::Schema.define(:version => 20110103064341) do
 
   create_table "kills", :force => true do |t|
     t.integer  "killer_id"
     t.integer  "killee_id"
     t.datetime "created_at"
+    t.string   "location"
   end
 
   create_table "players", :force => true do |t|

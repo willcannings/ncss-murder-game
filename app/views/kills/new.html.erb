@@ -2,5 +2,25 @@
   <p>Killer: <%= f.collection_select :killer_id, Player.all, :id, :name %></p>
   <p>Killee: <%= f.collection_select :killee_id, Player.all, :id, :name %></p>
   <p>Time: <%= f.datetime_select :created_at, order: [:day, :month, :year] %></p>
+  <p>
+    Location: <%= f.text_field :location %>
+    <select id='locs'>
+      <option>Not Specified/Other</option>
+      <option>Dining Hall</option>
+      <option>Menzies</option>
+      <option>Common Room</option>
+      <option>Lawn</option>
+      <option>SIT</option>
+      <option>Library</option>
+      <option>Front Steps</option>
+      <option>Other Womens College</option>
+    </select>
+  </p>
   <p><%= f.submit 'Create' %></p>
 <% end %>
+
+<script>
+  $('#locs').change(function(event) {
+    document.getElementById('kill_location').value = document.getElementById('locs').value
+  })
+</script>
