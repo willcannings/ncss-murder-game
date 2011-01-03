@@ -12,6 +12,26 @@
   </dl>
 </section>
 
-<section>
-  <object data="data:image/svg+xml;base64,<%= Base64.encode64(@graph_data) %>" width="900" height="600">
+<section id="graph">
 </section>
+
+<script>
+  $(document).ready(function() {
+      var g = new Graph();
+      g.edgeFactory.template.style.directed = true;
+      
+      <% previous_root = nil %>
+      <% @roots.each do |root| %>
+        <% 
+          root.column = previous_root.try(:width) || 0
+          root.column += 1
+          root.depth = 1
+        %>
+        <%= root.print_nodes.html_safe %>
+        <% previous_root = root %>
+      <% end %>
+      
+      var layouter = new Graph.Layout.Ordered(g, topological_sort(g));
+      var renderer = new Graph.Renderer.Raphael('graph', g, 900, 600);
+  });
+</script>

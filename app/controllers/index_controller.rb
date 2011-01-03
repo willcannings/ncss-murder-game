@@ -5,13 +5,13 @@ class IndexController < ApplicationController
     @first_kill = Kill.order('created_at asc').first
     @serial_killer = Player.order('kills desc').first
     
-    # create the graph kill data
-    kill_data = Kill.all.collect {|kill| "\"#{kill.killer.name}\" -> \"#{kill.killee.name}\";"}.join("\n")
-    
-    # draw the graph
-    pipe = IO.popen('/usr/bin/env dot -q -Tsvg', 'w+')
-    pipe.puts "digraph kills { #{kill_data} }"
-    pipe.close_write
-    @graph_data = pipe.read
+    # convert the list of kills into a tree
+    @nodes = {}
+    @kills.each do |kill|
+      killer = @nodes[kill.killer_id] ||= Node.new(kill.killer.name)
+      killee = @nodes[kill.killee_id] ||= Node.new(kill.killee.name)
+      killer.add_child(killee)
+    end
+    @roots = @nodes.values.select(&:root)
   end
 end
