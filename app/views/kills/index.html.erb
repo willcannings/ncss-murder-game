@@ -1,0 +1,7 @@
+<ul>
+  <% @kills.each do |kill| %>
+    <li><%= render partial: 'kill', object: kill %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'New', new_kill_path %>

@@ -1,0 +1,6 @@
+<%= form_for Kill.new do |f| %>
+  <p>Killer: <%= f.collection_select :killer_id, Player.all, :id, :name %></p>
+  <p>Killee: <%= f.collection_select :killee_id, Player.all, :id, :name %></p>
+  <p>Time: <%= f.datetime_select :created_at, order: [:day, :month, :year] %></p>
+  <p><%= f.submit 'Create' %></p>
+<% end %>

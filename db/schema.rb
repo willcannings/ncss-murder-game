@@ -10,16 +10,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110102032040) do
+ActiveRecord::Schema.define(:version => 20110103001325) do
 
   create_table "kills", :force => true do |t|
-    t.integer  "player_1_id"
-    t.integer  "player_2_id"
+    t.integer  "killer_id"
+    t.integer  "killee_id"
     t.datetime "created_at"
   end
 
   create_table "players", :force => true do |t|
-    t.string "name"
+    t.string  "name"
+    t.integer "kills"
   end
 
 end
