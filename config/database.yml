@@ -1,23 +1,11 @@
 development:
-  adapter: postgresql
-  encoding: unicode
-  database: murder_development
-  pool: 5
-  username: postgres
-  password:
+  adapter: sqlite3
+  database: db/development.sqlite3
 
 test:
-  adapter: postgresql
-  encoding: unicode
-  database: murder_test
-  pool: 5
-  username: postgres
-  password:
+  adapter: sqlite3
+  database: db/test.sqlite3
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: murder_production
-  pool: 5
-  username: postgres
-  password:
+  adapter: sqlite3
+  database: db/production.sqlite3
