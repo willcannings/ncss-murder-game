@@ -4,7 +4,7 @@
     <dt>Death Count:</dt>
     <dd><%= @kills.size %></dd>
     <dt>Serial Killer:</dt>
-    <dd><%= @serial_killer.name %></dd>
+    <dd><%= @serial_killer.name %> (<%= @serial_killer.kills %> kills)</dd>
     <dt>Latest Kill:</dt>
     <dd><%= render partial: 'kills/kill', object: @latest_kill %></dd>
     <dt>First Kill:</dt>
