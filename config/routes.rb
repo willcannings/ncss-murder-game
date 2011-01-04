@@ -1,4 +1,6 @@
 Murder::Application.routes.draw do
-  resources :kills
+  scope "/murder" do
+    resources :kills
+  end
   root to: 'index#index'
 end
